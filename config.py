@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-admin = 1308259399 #АЙДИ админа
+admin = 1241578221 #АЙДИ админа
 
 bot_name = "SberOfice" #Ник бота
 
