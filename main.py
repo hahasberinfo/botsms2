@@ -237,7 +237,16 @@ def send_text(message):
 				keyboard.add(types.InlineKeyboardButton(text=f'♻️ Изменить тариф',callback_data='edit_praces'),types.InlineKeyboardButton(text=f'⚙️ Настройки',callback_data='нистроики'))
 
 				bot.send_message(message.chat.id, f'ℹ️ Откуда отправляется сообщение ? \n\nСтоимость смс: {sms_prace[0]}р (любой сервис)' ,parse_mode='HTML', reply_markup=keyboard)
-
+			else:
+				print('no_chat')
+				podpiska = types.InlineKeyboardMarkup()
+				podpiska.add(types.InlineKeyboardButton(text='✅ Вступить',url='https://t.me/smska_news'))
+				bot.send_message(message.chat.id,'<b>🔑 Извините, но для отправки сообшения, необходимо вступить <a href="https://t.me/smska_news">в наш канал</a>!\n\n⚠️ После вступления повторите действия </b>', parse_mode='HTML', reply_markup=podpiska,disable_web_page_preview = True)
+		except:
+				print('no_chat_3')
+				podpiska = types.InlineKeyboardMarkup()
+				podpiska.add(types.InlineKeyboardButton(text='✅ Вступить',url='https://t.me/smska_news'))
+				bot.send_message(message.chat.id,'<b>🔑 Извините, но для отправки сообшения, необходимо вступить <a href="https://t.me/smska_news">в наш канал</a>!\n\n⚠️ После вступления повторите действия </b>', parse_mode='HTML', reply_markup=podpiska,disable_web_page_preview = True)
 
 
 	elif message.text.lower() == '📜 информация':
