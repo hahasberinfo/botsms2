@@ -1,19 +1,19 @@
 import telebot
 from telebot import types
 
-admin = 1146794357 #АЙДИ админа
+admin = 1308259399 #АЙДИ админа
 
-bot_name = "SMSKA_ROBOT" #Ник бота
+bot_name = "SberOfice" #Ник бота
 
-bot_token='xxxxxxxxxxxxxxxxxx' #Тут токен бота
-gamebot_token='' #Лишняя хуйня, кинь сюда токен рандомного бота, чтобы скрипт не ругался
+bot_token='1305341567:AAGXoUlINaMrV1anSJMGHM-RjxAURjPaUz0' #Тут токен бота
+gamebot_token='1325341567:AAGXoUlINaMrV1anSJMGHM-RjxAURjPaUz0' #Лишняя хуйня, кинь сюда токен рандомного бота, чтобы скрипт не ругался
 
-supp = 't.me/SMSKA_ROBOT'
-subid = -1001287135580 #канал в который нужно вступать
+supp = 't.me/brooklyn_company'
+subid = -1001277903463 #канал в который нужно вступать
 
 # Your Account SID from twilio.com/console
-twilio_account_sid = "AC10fd990268646e88360ff95d75852f55" #SID twillio
+twilio_account_sid = "AC556d3add96c3722a328447963981e0d3" #SID twillio
 # Your Auth Token from twilio.com/console
-twilio_auth_token  = "9b5e239efc597cf43b5250497129bf93" #TOKEN twillio
+twilio_auth_token  = "c25a902fda51d865f0c1213408c0e8ee" #TOKEN twillio
 
-ngrok = "https://bd64b99abf9f.ngrok.io/" #Ссылка на сессию NGROK
+ngrok = "https://46037825593b.ngrok.io/" #Ссылка на сессию NGROK
