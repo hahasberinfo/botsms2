@@ -7,7 +7,7 @@ import config
 import random
 import time
 import json
-import Light_qiwi
+import light_qiwi
 from light_qiwi import Qiwi, OperationType
 import keyboards
 import requests
